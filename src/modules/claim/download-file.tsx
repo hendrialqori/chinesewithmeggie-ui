@@ -40,7 +40,7 @@ export function DownloadFile({ encrypted }: { encrypted: string }) {
         // Clean up
         document.body.removeChild(anchor)
 
-        // router.push("/")
+        router.push("/")
 
         toast.success("Berhasil mendownload produk")
         setTimeout(() => {
