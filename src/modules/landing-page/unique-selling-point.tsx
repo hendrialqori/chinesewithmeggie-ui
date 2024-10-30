@@ -20,13 +20,13 @@ function UniqueSellingPoint() {
                 <YellowRoundShape />
             </div>
             <div className="landing-page-container2nd grid grid-cols-1 xl:grid-cols-8 xl:grid-rows-2 gap-3 md:gap-5 z-10">
-                <h2 className="font-bold text-center md:text-left text-[0.85rem] md:text-2xl xl:text-3xl font-fredoka col-span-5 md:col-span-3 center-flex -translate-y-7 md:-translate-y-12  xl:translate-y-7">
+                <h2 className="font-bold text-center md:text-left text-2xl xl:text-3xl font-fredoka col-span-5 md:col-span-3 center-flex -translate-y-7 md:-translate-y-12  xl:translate-y-7">
                     Kenapa harus Chinese With Meggie ?
                 </h2>
                 <div className="relative flex col-span-5 rounded-3xl bg-[#F07B48]/15" aria-label="usp-description">
                     <div className="w-8/12 md:w-7/12 pl-7 py-4 md:py-12 space-y-1.5 md:space-y-3 flex flex-col justify-center items-start">
-                        <h3 className="font-fredoka font-bold text-xs md:text-lg xl:text-xl">Mudah dipakai, kapan saja</h3>
-                        <p className="font-mulish font-semibold text-[0.7rem] md:text-base !leading-[140%] md:!leading-[150%]">
+                        <h3 className="font-fredoka font-bold text-base md:text-lg xl:text-xl">Mudah dipakai, kapan saja</h3>
+                        <p className="font-mulish font-semibold text-xs md:text-base !leading-[140%] md:!leading-[150%]">
                             Guidebook ini bisa kamu akses di mana pun dan kapan pun. Mau belajar sambil ngopi di kafe pas lagi di perjalanan? Gampang banget!
                         </p>
                     </div>
@@ -55,16 +55,16 @@ function UniqueSellingPoint() {
                         />
                     </div>
                     <div className="w-9/12 pl-2 md:pl-0 pr-4 md:pr-8 py-4 md:py-12 space-y-1.5 md:space-y-3 flex flex-col justify-center items-start">
-                        <h3 className="font-fredoka font-bold text-xs md:text-lg xl:text-xl">Mudah Dibaca, Praktis banget</h3>
-                        <p className="font-mulish font-semibold text-[0.7rem] md:text-base !leading-[140%] md:!leading-[150%]">
+                        <h3 className="font-fredoka font-bold text-base md:text-lg xl:text-xl">Mudah Dibaca, Praktis banget</h3>
+                        <p className="font-mulish font-semibold text-xs md:text-base !leading-[140%] md:!leading-[150%]">
                             Meggie bikin simple dengan guidebook yang colorful, video interactive, dan gambar yang lucu. dijamin kamu gak bosen deh!
                         </p>
                     </div>
                 </div>
                 <div className="relative flex col-span-5 md:col-span-4 rounded-3xl bg-[#6E9FB8]/15" aria-label="usp-description">
                     <div className="w-8/12 md:w-7/12 pl-7 py-4 md:py-12 space-y-1.5 md:space-y-3 flex flex-col justify-center items-start">
-                        <h3 className="font-fredoka font-bold text-xs md:text-lg xl:text-xl">Mudah dicerna, 100% relatable</h3>
-                        <p className="font-mulish font-semibold text-[0.7rem] md:text-base !leading-[140%] md:!leading-[150%]">
+                        <h3 className="font-fredoka font-bold text-base md:text-lg xl:text-xl">Mudah dicerna, 100% relatable</h3>
+                        <p className="font-mulish font-semibold text-xs md:text-base !leading-[140%] md:!leading-[150%]">
                             Materi diambil dari bahasa sehari-sehari, bukan dari text book!  Nggak ribet, langsung ngerti dan langsung bisa ngobrol!
                         </p>
                     </div>

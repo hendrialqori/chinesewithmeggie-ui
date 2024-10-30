@@ -57,3 +57,26 @@ export function useCreateInvoice() {
         })
 }
 
+export function useExportCsv(query: Pick<Query, "start_date" | "end_date">) {
+    const instance = useInstance()
+    const { credential } = useCredential()
+
+    type Params = { signal: AbortSignal }
+
+    const queries = new URLSearchParams()
+    queries.set("start_date", query.start_date)
+    queries.set("end_date", query.end_date)
+
+    const GET = async ({ signal }: Params) => {
+        const req = await instance(credential?.access_token ?? "")
+            .get(`${API}/transaction/export?${queries.toString()}`, { signal, responseType: "blob" })
+        return req.data
+    }
+
+    return useQuery<Blob, AxiosError<Error>>({
+        queryKey: ["EXPORT/CSV"],
+        queryFn: GET,
+        enabled: false
+    })
+
+}

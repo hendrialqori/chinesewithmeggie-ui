@@ -71,34 +71,34 @@ function ProductOffer() {
         <section className="bg-[#FEF9F6] relative overflow-hidden py-20 md:py-24 mt-space_between_section_sm md:mt-space_between_section_md xl:mt-space_between_section" aria-label="product-offer">
             <div className="relative landing-page-container space-y-8 md:space-y-20">
                 <RocketShape />
-                <h2 className="font-fredoka font-bold text-[0.85rem] md:text-2xl xl:text-[2rem] text-center">
+                <h2 className="font-fredoka font-bold text-2xl xl:text-[2rem] text-center">
                     Cuma di guidebook ini kamu bisa dapatkan:
                 </h2>
                 <div className="relative grid grid-cols-1 lg:grid-cols-3 place-items-start gap-6 md:gap-8 z-10" aria-label="offers">
                     <div className="center-flex flex-col space-y-3 md:space-y-6" aria-label="offer">
                         <div className="center-flex flex-col">
                             <BsCameraVideo className="text-3xl md:text-5xl text-[#F07B48]" />
-                            <h3 className="font-fredoka text-[0.8rem] md:text-lg xl:text-2xl font-bold text-[#F07B48]">Guiding Video</h3>
+                            <h3 className="font-fredoka text-xl xl:text-2xl font-bold text-[#F07B48]">Guiding Video</h3>
                         </div>
-                        <p className="text-center text-xs md:text-base font-medium text-[#3A3A3A] font-mulish !leading-[150%]">
+                        <p className="text-center text-sm md:text-base font-medium text-[#3A3A3A] font-mulish !leading-[150%]">
                             Nggak cuman gambar dan tulisan, di setiap bab Meggie sertakan video yang akan ngebantu kalian untuk lebih memahami cara baca, ejaan, dan nada Bahasa Mandarin.
                         </p>
                     </div>
                     <div className="center-flex flex-col space-y-3 md:space-y-6" aria-label="offer">
                         <div className="center-flex flex-col">
                             <LiaAssistiveListeningSystemsSolid className="text-3xl md:text-5xl text-cwm_blue" />
-                            <h3 className="font-fredoka text-[0.8rem] md:text-lg xl:text-2xl font-bold text-cwm_blue">Listening Pratice</h3>
+                            <h3 className="font-fredoka text-xl xl:text-2xl font-bold text-cwm_blue">Listening Pratice</h3>
                         </div>
-                        <p className="text-center text-xs md:text-base font-medium text-[#3A3A3A] font-mulish !leading-[150%]">
+                        <p className="text-center text-sm md:text-base font-medium text-[#3A3A3A] font-mulish !leading-[150%]">
                             Nggak cuman membaca dan menonton, Meggie juga akan kasih kamu latihan untuk mendengarkan. Kalo belajar bahasa penting banget untuk latihan mendengarkan supaya kamu makin terbiasa.
                         </p>
                     </div>
                     <div className="center-flex flex-col space-y-3 md:space-y-6" aria-label="offer">
                         <div className="center-flex flex-col">
                             <MdOutlineQuiz className="text-4xl md:text-5xl text-cwm_green" />
-                            <h3 className="font-fredoka text-[0.8rem] md:text-lg xl:text-2xl font-bold text-cwm_green">Interactive Quiz</h3>
+                            <h3 className="font-fredoka text-xl xl:text-2xl font-bold text-cwm_green">Interactive Quiz</h3>
                         </div>
-                        <p className="text-center text-xs md:text-base font-medium text-[#3A3A3A] font-mulish !leading-[150%]">
+                        <p className="text-center text-sm md:text-base font-medium text-[#3A3A3A] font-mulish !leading-[150%]">
                             Meggie juga akan kasih bonus quiz loh supaya kamu bisa latihan secara mandiri tentang pemahaman kamu!
                         </p>
                     </div>

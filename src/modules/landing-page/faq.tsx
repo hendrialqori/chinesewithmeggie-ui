@@ -24,8 +24,8 @@ function FAQ() {
             <div className="landing-page-container2nd grid grid-cols-1 lg:grid-cols-2 gap-14">
                 <div className="flex flex-col-reverse md:flex-col items-center gap-2">
                     <div className="text-center space-y-1 md:space-y-2">
-                        <h2 className="font-fredoka font-bold text-[0.85rem] md:text-2xl xl:text-[2rem]">Frequently Asked Questions</h2>
-                        <h3 className="font-fredoka font-bold text-xs md:text-lg xl:text-xl text-[#5D5D5D]">Meggie jawab pertanyaan kalian</h3>
+                        <h2 className="font-fredoka font-bold text-2xl xl:text-[2rem]">Frequently Asked Questions</h2>
+                        <h3 className="font-fredoka font-bold text-base md:text-lg xl:text-xl text-[#5D5D5D]">Meggie jawab pertanyaan kalian</h3>
                     </div>
                     <Image
                         src="/image/faq.png"

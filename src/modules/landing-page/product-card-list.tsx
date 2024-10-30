@@ -9,7 +9,7 @@ export function ProductCardList() {
 
     return (
         <section className="relative space-y-8 md:space-y-20 pt-10 md:pt-20 z-10" aria-label="product list card">
-            <h4 className="font-fredoka text-[0.85rem] md:text-2xl xl:text-[2rem] font-bold text-center">
+            <h4 className="font-fredoka text-2xl xl:text-[2rem] font-bold text-center">
                 Atau bisa juga pilih e-book yg lebih relevan buat kamu
             </h4>
             <Flow>

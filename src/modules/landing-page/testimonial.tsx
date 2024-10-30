@@ -63,7 +63,7 @@ function Testimonial() {
                 <BlueShape />
             </div>
             <div className="landing-page-container2nd space-y-8 md:space-y-20 py-7 md:py-14 relative">
-                <h2 className="font-fredoka font-bold text-[0.85rem] md:text-2xl xl:text-[2rem] text-center">Apa kata Mereka?</h2>
+                <h2 className="font-fredoka font-bold text-2xl xl:text-[2rem] text-center">Apa kata Mereka?</h2>
                 <div className="flex justify-center flex-wrap gap-3">
                     {testimonial.map((testimony, i) => (
                         <Testimony

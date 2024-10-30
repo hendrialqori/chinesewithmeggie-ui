@@ -11,7 +11,7 @@ function Point({ description }: { description: string }) {
             <div className="bg-cwm_green rounded-[0.25rem] p-[2px]">
                 <LuCheck className="text-white text-xs md:text-lg" />
             </div>
-            <p className="text-xs md:text-base xl:text-lg md:-translate-y-1 font-medium">{description}</p>
+            <p className="text-sm md:text-base xl:text-lg md:-translate-y-1 font-medium">{description}</p>
         </div>
     )
 }
@@ -45,7 +45,7 @@ export function ProductKnowledge() {
         <section className="landing-page-container relative flex flex-col lg:flex-row gap-8 py-12 md:py-24 t-space_between_section_sm md:mt-space_between_section_md xl:mt-space_between_section">
             <StarShape />
             <div className="w-full lg:w-5/12 space-y-8 md:space-y-12" aria-label="product knowledge description">
-                <h2 className="font-fredoka text-center font-bold text-[0.85rem] md:text-2xl xl:text-[2rem] text-[#6E9FB8]">Apa yang kamu dapatkan ?</h2>
+                <h2 className="font-fredoka text-center font-bold text-2xl xl:text-[2rem] text-[#6E9FB8]">Apa yang kamu dapatkan ?</h2>
                 <div className="space-y-5 md:space-y-7">
                     {productKnowledgePoints.map((point, i) => (
                         <Point

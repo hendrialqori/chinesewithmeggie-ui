@@ -51,7 +51,7 @@ export function Hero() {
                 <div className="space-y-10 mt-0 xl:mt-20 z-[2] mx-auto xl:mx-[0]" aria-label="left-side">
                     <div className="relative space-y-6 z-[2]" aria-label="tagline & descriptions">
                         <div className="bg-white w-full md:w-max rounded-full px-4 py-1 shadow-sm" aria-label="badge">
-                            <p className="text-[#F07B48] text-xs md:text-base lg:text-xl text-center md:text-left">
+                            <p className="text-[#F07B48] text-sm md:text-base lg:text-xl text-center md:text-left">
                                 #1 Guide Book Mandarin super praktis dan mudah dipraktekin!
                             </p>
                         </div>
@@ -71,17 +71,17 @@ export function Hero() {
                         <Button.ScrollIntoProduct />
                         <Button.HeroVideo />
                     </div>
-                    <div className="relative center-flex justify-center md:justify-start gap-3 md:gap-x-6 z-[4]" aria-label="reports">
+                    <div className="relative center-flex items-start justify-center md:justify-start gap-3 md:gap-x-6 z-[4]" aria-label="reports">
                         <div className="font-mulish space-y-1">
-                            <p className="text-md md:text-4xl font-extrabold text-cwm_green">20++</p>
+                            <p className="text-xl md:text-4xl font-extrabold text-cwm_green">20+</p>
                             <p className="text-[0.7rem] md:text-sm font-medium">Video panduan</p>
                         </div>
                         <div className="font-mulish space-y-1">
-                            <p className="text-md md:text-4xl font-extrabold text-cwm_green">20++</p>
+                            <p className="text-xl md:text-4xl font-extrabold text-cwm_green">20+</p>
                             <p className="text-[0.7rem] md:text-sm font-medium">Materi guide book</p>
                         </div>
                         <div className="font-mulish space-y-1">
-                            <p className="text-md md:text-4xl font-extrabold text-cwm_green">200+</p>
+                            <p className="text-xl md:text-4xl font-extrabold text-cwm_green">200+</p>
                             <p className="text-[0.7rem] md:text-sm font-medium">Pembeli</p>
                         </div>
                     </div>

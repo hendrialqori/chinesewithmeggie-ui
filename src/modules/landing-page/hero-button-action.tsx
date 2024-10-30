@@ -20,7 +20,7 @@ export function HeroVideo() {
                 hover:bg-gray-100 transition duration-200"
                 onClick={toggle("open")}
             >
-                <p className="text-[0.7rem] md:text-sm font-mulish font-semibold">Tonton teaser video</p>
+                <p className="text-sm font-mulish font-semibold">Tonton teaser video</p>
                 <div className="center-flex rounded-full bg-cwm_orange p-1 md:size-8">
                     <PiPlayLight className="text-white text-base md:text-lg" />
                 </div>
@@ -50,7 +50,7 @@ export function ScrollIntoProduct() {
                          hover:bg-gray-100 transition duration-200"
             onClick={scrollIntoProductOffer}
         >
-            <p className="text-[0.7rem] md:text-sm font-mulish font-semibold">Beli e-book ​sekarang</p>
+            <p className="text-sm font-mulish font-semibold">Beli e-book ​sekarang</p>
             <div className="center-flex rounded-full bg-cwm_blue p-1 md:size-8">
                 <MdOutlineArrowForward className="text-white text-base md:text-xl" />
             </div>
