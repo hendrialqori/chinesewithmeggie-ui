@@ -69,7 +69,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
          })
          setValue("name", product?.data.title ?? "")
          setValue("originalPrice", numberFormat(product?.data.originalPrice.toString() ?? ""))
-         setValue("strikeoutPrice", numberFormat(product?.data.strikeoutPrice.toString() ?? ""))
+         setValue("discountPrice", numberFormat(product?.data.discountPrice.toString() ?? ""))
          setValue("isOffer", Boolean(product?.data.isOffer))
          setValue("description", product?.data.description ?? "")
       }
@@ -144,7 +144,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
       const formData = new FormData()
       formData.append("title", state.name)
       formData.append("originalPrice", state.originalPrice)
-      formData.append("strikeoutPrice", state.strikeoutPrice)
+      formData.append("discountPrice", state.discountPrice)
       formData.append("isOffer", Number(state.isOffer).toString())
       formData.append("description", state.description)
       // append image if exists
@@ -255,14 +255,14 @@ export function ProductForm({ id, type, onClose, }: Props) {
                         id={id}
                         className="bg-[#F4F4F4]"
                         placeholder="Rp."
-                        {...register("strikeoutPrice", {
+                        {...register("discountPrice", {
                            onChange: (event) => {
                               const value = event.target.value
                               const price = numberFormat(value)
-                              setValue("strikeoutPrice", price)
+                              setValue("discountPrice", price)
                            }
                         })}
-                        aria-invalid={Boolean(errors.strikeoutPrice?.message)}
+                        aria-invalid={Boolean(errors.discountPrice?.message)}
                      />
                      <FormFieldError>
                         {errors.originalPrice?.message}
@@ -282,7 +282,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
                         className="bg-[#F4F4F4] size-4 rounded-lg accent-black"
                         type="checkbox"
                         {...register("isOffer")}
-                        aria-invalid={Boolean(errors.strikeoutPrice?.message)}
+                        aria-invalid={Boolean(errors.isOffer?.message)}
                      />
                      <FormFielDescription>When checked will be display at product offer section</FormFielDescription>
                   </React.Fragment>

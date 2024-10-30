@@ -80,8 +80,8 @@ export function Checkout(props: Props) {
                     <div className="flex flex-col justify-center py-2">
                         <h2 className="text-sm md:text-base font-fredoka font-bold text-center">{props.title}</h2>
                         <div className="font-mulish center-flex flex-col gap-1 py-2">
-                            <p className="line-through text-xs md:text-sm font-medium">Rp {priceFormat(props.strikeoutPrice)}</p>
-                            <p className="font-extrabold text-sm md:text-base">Rp {priceFormat(props.originalPrice)}</p>
+                            <p className="line-through text-xs md:text-sm font-medium">Rp {priceFormat(props.originalPrice)}</p>
+                            <p className="font-extrabold text-sm md:text-base">Rp {priceFormat(props.discountPrice)}</p>
                         </div>
                     </div>
                 </div>

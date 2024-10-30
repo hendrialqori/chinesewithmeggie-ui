@@ -19,6 +19,7 @@ const modalState = {
 }
 
 function ProductCard(props: Product) {
+    
     const [modal, setModal] = React.useState(modalState)
     const [expand, setExpand] = React.useState(false)
 
@@ -83,8 +84,8 @@ function ProductCard(props: Product) {
                     </div>
                     <div className="flex items-center justify-between">
                         <div className="">
-                            <p className="line-through text-sm font-medium text-red-600">Rp {priceFormat(props.strikeoutPrice)}</p>
-                            <p className="font-bold text-sm md:text-lg">Rp {priceFormat(props.originalPrice)}</p>
+                            <p className="line-through text-sm font-medium text-red-600">Rp {priceFormat(props.originalPrice)}</p>
+                            <p className="font-bold text-sm md:text-lg">Rp {priceFormat(props.discountPrice)}</p>
                         </div>
                         <div className="space-x-4">
                             <button

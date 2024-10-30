@@ -39,7 +39,7 @@ export type Product = {
     title: string,
     image: string,
     originalPrice: number,
-    strikeoutPrice: number,
+    discountPrice: number,
     isOffer: boolean,
     zipPath: string;
     description: string,

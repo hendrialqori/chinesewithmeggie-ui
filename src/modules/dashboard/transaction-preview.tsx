@@ -36,8 +36,8 @@ export function Preview({ transaction, onClose }: Props) {
                 <div className="h-1/3 flex flex-col justify-center py-2">
                     <h2 className="text-sm md:text-base font-fredoka font-bold text-center">{transaction?.product.title}</h2>
                     <div className="font-mulish center-flex flex-col gap-1 py-2">
-                        <p className="line-through text-xs md:text-sm font-medium">Rp {priceFormat(transaction?.product.strikeoutPrice ?? 0)}</p>
-                        <p className="font-extrabold text-sm md:text-base">Rp {priceFormat(transaction?.product.originalPrice ?? 0)}</p>
+                        <p className="line-through text-xs md:text-sm font-medium">Rp {priceFormat(transaction?.product.originalPrice ?? 0)}</p>
+                        <p className="font-extrabold text-sm md:text-base">Rp {priceFormat(transaction?.product.discountPrice ?? 0)}</p>
                     </div>
                 </div>
             </div>

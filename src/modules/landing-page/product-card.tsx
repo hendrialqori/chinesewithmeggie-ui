@@ -39,8 +39,8 @@ export function ProductCard(props: Product) {
                 </div>
                 <figcaption className="space-y-0 md:space-y-5 p-4 md:px-5 md:py-6">
                     <div className="space-y-1 md:space-y-2" aria-label="title & discription">
-                        <h3 className="font-fredoka font-bold text-[0.65rem] md:text-base lg:text-xl">{props.title}</h3>
-                        <div className="min-h-14 md:min-h-20 text-[#5D5D5D] font-medium text-[0.7rem] md:text-sm lg:text-base">
+                        <h3 className="font-fredoka font-bold text-base lg:text-xl">{props.title}</h3>
+                        <div className="min-h-14 md:min-h-20 text-[#5D5D5D] font-medium text-xs md:text-sm lg:text-base">
                             <p>{truncateDescription(props?.description ?? "")} {" "}</p>
                             <span
                                 role="button"
@@ -52,10 +52,10 @@ export function ProductCard(props: Product) {
                             </span>
                         </div>
                     </div>
-                    <div className="flex gap-2 md:gap-0 justify-between">
+                    <div className="flex flex-col md:flex-row gap-2 md:gap-0 justify-between">
                         <div className="font-mulish">
-                            <p className="line-through text-[0.6rem] md:text-sm font-medium">Rp {priceFormat(props.strikeoutPrice)}</p>
-                            <p className="font-bold text-[0.65rem] md:text-base xl:text-lg">Rp {priceFormat(props.originalPrice)}</p>
+                            <p className="line-through text-xs md:text-sm font-medium">Rp {priceFormat(props.originalPrice)}</p>
+                            <p className="font-bold text-base xl:text-lg">Rp {priceFormat(props.discountPrice)}</p>
                         </div>
                         <button
                             className={cn(

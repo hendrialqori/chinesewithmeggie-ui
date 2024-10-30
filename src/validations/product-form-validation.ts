@@ -13,7 +13,7 @@ export const productFormScheme = z.object({
     originalPrice: z.string()
         .min(1, { message: "Required" })
         .transform((price) => price.replaceAll(",", "")),
-    strikeoutPrice: z.string()
+    discountPrice: z.string()
         .min(1, { message: "Required" })
         .transform((price) => price.replaceAll(",", "")),
     isOffer: z.boolean().default(false),
