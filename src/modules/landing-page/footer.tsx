@@ -40,10 +40,10 @@ function Footer() {
                         />
                     </div>
                     <div className="center-flex justify-center md:justify-end gap-3">
-                        <a href="#" target="_blank" rel="noopener" aria-label="Instagram">
+                        <a href="https://www.instagram.com/chinesewithmeggie?igsh=MTBxeGswbXR0cDdrZg==" target="_blank" rel="noopener" aria-label="Instagram">
                             <LuInstagram className="text-2xl" />
                         </a>
-                        <a href="#" aria-label="Twitter">
+                        <a href="https://www.tiktok.com/@chinesewithmeggie?_t=8qyAW1o6uUU&_r=1" aria-label="Twitter">
                             <FaTiktok className="text-xl" />
                         </a>
                     </div>
