@@ -173,7 +173,7 @@ export function Checkout(props: Props) {
                                 className="w-1/2 text-xs md:text-sm font-medium bg-[#F8F8F8] border border-[#DBDBDB] rounded-lg py-2 h-10 hover:outline-double hover:outline-black"
                                 onClick={props.onClose}
                             >
-                                Cencel
+                                Cancel
                             </button>
                             <button
                                 className="w-1/2 text-xs md:text-sm font-medium bg-black text-white rounded-lg py-2 h-10 outline-double active:outline-black"
