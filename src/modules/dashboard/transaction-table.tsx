@@ -58,7 +58,7 @@ export function TableData({ transactions }: Props) {
                             <TableRow key={i} className="text-xs lg:text-sm font-medium">
                                 <TableCell className="py-4 px-2 text-nowrap">
                                     {dayjs(trx.createdAt)
-                                        .subtract(7, "hour")
+                                        .locale("id")
                                         .format("ddd, DD MMMM YYYY HH:mm")
                                     }
                                 </TableCell>
