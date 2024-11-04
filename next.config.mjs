@@ -9,7 +9,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "cwm-stagging.up.railway.app"
+        hostname: process.env.NEXT_PUBLIC_HOSTNAME
       }
     ],
   },
