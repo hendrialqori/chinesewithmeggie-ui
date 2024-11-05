@@ -14,8 +14,8 @@ const handler = NextAuth({
                 password: { type: "password", label: "password" }
             },
             async authorize(credentials) {
-                const email = credentials?.email
-                const password = credentials?.password
+                const email = credentials?.email ?? ""
+                const password = credentials?.password ?? ""
 
                 try {
                     const res = await login({ email, password })
