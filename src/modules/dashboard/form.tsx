@@ -181,7 +181,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
             <FormItem>
                {(id) => (
                   <React.Fragment>
-                     <FormLabel htmlFor={id}>Image</FormLabel>
+                     <FormLabel htmlFor={id}>Image*</FormLabel>
                      {!changeFile.image && IS_UPDATE ?
                         (<ImagePreview
                            image={preview.image}
@@ -210,7 +210,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
             <FormItem>
                {(id) => (
                   <React.Fragment>
-                     <FormLabel htmlFor={id}>Name</FormLabel>
+                     <FormLabel htmlFor={id}>Name*</FormLabel>
                      <Input
                         id={id}
                         className="bg-[#F4F4F4]"
@@ -227,7 +227,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
             <FormItem>
                {(id) => (
                   <React.Fragment>
-                     <FormLabel htmlFor={id}>Original price</FormLabel>
+                     <FormLabel htmlFor={id}>Original price*</FormLabel>
                      <Input
                         id={id}
                         className="bg-[#F4F4F4]"
@@ -250,7 +250,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
             <FormItem>
                {(id) => (
                   <React.Fragment>
-                     <FormLabel htmlFor={id}>Discounted price</FormLabel>
+                     <FormLabel htmlFor={id}>Discounted price*</FormLabel>
                      <Input
                         id={id}
                         className="bg-[#F4F4F4]"
@@ -291,7 +291,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
             <FormItem>
                {(id) => (
                   <React.Fragment >
-                     <FormLabel htmlFor={id}>Zip file</FormLabel>
+                     <FormLabel htmlFor={id}>Zip file*</FormLabel>
                      {!changeFile.zip && IS_UPDATE ?
                         (<ZipPreview
                            zip={preview.zip}
@@ -316,7 +316,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
             <FormItem className="flex flex-col">
                {(id) => (
                   <React.Fragment>
-                     <FormLabel htmlFor={id}>Description</FormLabel>
+                     <FormLabel htmlFor={id}>Description*</FormLabel>
                      <textarea
                         id={id}
                         placeholder="Description"
