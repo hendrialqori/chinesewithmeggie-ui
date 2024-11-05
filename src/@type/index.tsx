@@ -28,8 +28,8 @@ export type Testimony = {
 export type Credential = {
     id: number;
     username: string;
-    email?: string;
-    password?: string;
+    email: string;
+    password: string;
     access_token: string
     createdAt: string;
 }
