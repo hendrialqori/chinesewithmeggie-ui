@@ -21,21 +21,6 @@ export const testimonial = [
         image: "/image/WA-testimoni-3.jpeg",
         message: "Serius, ini ebook paling praktis yang pernah aku coba. Dalam seminggu aja udah bisa ngobrol basic Mandarin! Super puas",
         person: { name: "Andi", age: 25, job: "Mahasiswa" }
-    },
-    {
-        image: "/image/WA-testimoni-1.jpeg",
-        message: "Aku biasanya bosen kalau belajar bahasa, tapi ebook ini beda banget. Lucu, interaktif, dan ngebantu banget buat liburan ke China. Recommended!",
-        person: { name: "Dian", age: 33, job: "Freelancer" }
-    },
-    {
-        image: "/image/WA-testimoni-2.jpeg",
-        message: "Gak nyangka bisa ngobrol Mandarin secepat ini! Ebook-nya bener-bener gampang dipahami, dan materinya langsung bisa dipakai buat sehari-hari.",
-        person: { name: "Sarah", age: 28, job: "Traveler" }
-    },
-    {
-        image: "/image/WA-testimoni-3.jpeg",
-        message: "Gak nyangka bisa ngobrol Mandarin secepat ini! Ebook-nya bener-bener gampang dipahami, dan materinya langsung bisa dipakai buat sehari-hari.",
-        person: { name: "Sarah", age: 28, job: "Traveler" }
     }
 ]
 
