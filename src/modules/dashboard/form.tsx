@@ -108,7 +108,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
             }, 500)
          },
          onError: (error) => {
-            const message = error.response?.data.message
+            const message = error.response?.data.message ?? "Failed create new product"
             toast.error(JSON.stringify(message))
 
          }
@@ -133,7 +133,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
             }, 500)
          },
          onError: (error) => {
-            const message = error.response?.data.message
+            const message = error.response?.data.message ?? "Failed update product"
             toast.error(JSON.stringify(message))
          }
       })
