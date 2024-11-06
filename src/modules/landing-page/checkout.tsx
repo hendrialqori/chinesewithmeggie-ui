@@ -55,7 +55,7 @@ export function Checkout(props: Props) {
         invoice.mutate(data, {
             onSuccess: (props) => {
                 const { invoiceUrl } = props.data
-                window.open(invoiceUrl, "_blank")
+                window.open(invoiceUrl, "_self")
             },
             onError: (error) => {
                 const message = String(error.response?.data.errors)
