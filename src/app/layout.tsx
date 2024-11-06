@@ -4,6 +4,7 @@ import { Mulish, Fredoka, Inter } from "next/font/google"
 import { Toaster } from "sonner";
 import AuthSessionProvider from "#/providers/AuthSessionProvider";
 import QueryProvider from "#/providers/QueryProvider";
+import Analytic from "#/lib/analytic"
 
 const fredoka = Fredoka({
   subsets: ['latin'],
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: TRootLayout) {
           </QueryProvider>
         </AuthSessionProvider>
         <Toaster richColors />
+        <Analytic />
       </body>
     </html>
   );
