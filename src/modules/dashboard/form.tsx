@@ -305,6 +305,7 @@ export function ProductForm({ id, type, onClose, }: Props) {
                               accept=".zip"
                               {...register("zip")}
                            />
+                            <FormFielDescription>Max file size allowed is 50MB</FormFielDescription>
                            <FormFieldError>
                               {errors.zip?.message as string}
                            </FormFieldError>
