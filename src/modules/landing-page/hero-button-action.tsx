@@ -16,8 +16,7 @@ export function HeroVideo() {
     return (
         <React.Fragment>
             <button
-                className="bg-white rounded-full shadow-sm center-flex gap-3 py-2 px-3 md:px-5
-                hover:bg-gray-100 transition duration-200"
+                className="bg-black text-white rounded-full shadow-sm center-flex gap-3 py-2 px-3 md:px-5"
                 onClick={toggle("open")}
             >
                 <p className="text-sm font-mulish font-semibold">Tonton teaser video</p>
@@ -46,11 +45,10 @@ export function ScrollIntoProduct() {
 
     return (
         <button
-            className="bg-white rounded-full shadow-sm center-flex gap-3 py-2 px-3 md:px-5
-                         hover:bg-gray-100 transition duration-200"
+            className="bg-black text-white rounded-full shadow-sm center-flex gap-3 py-2 px-3 md:px-5 hover:bg-gray-100 transition duration-200"
             onClick={scrollIntoProductOffer}
         >
-            <p className="text-sm font-mulish font-semibold">Beli e-book ​sekarang</p>
+            <p className="text-sm font-mulish font-semibold">Dapatkan  ​sekarang</p>
             <div className="center-flex rounded-full bg-cwm_blue p-1 md:size-8">
                 <MdOutlineArrowForward className="text-white text-base md:text-xl" />
             </div>
