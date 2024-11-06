@@ -11,6 +11,7 @@ export default function Home() {
         <LP.ProductOffer />
         <LP.FAQ />
         <LP.Footer />
+        <LP.FloatingWhatsAppButton />
     </main>
   )
 }
